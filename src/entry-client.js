@@ -1,1 +1,0 @@
-document.querySelector('#app').innerHTML = '<h2>Client Rendered!!</h2>';

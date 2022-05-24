@@ -2,12 +2,17 @@
   "scripts": {
     "dev": "node server.js",
     "build:client": "vite build --outDir dist/client",
-    "build:server": "vite build --outDir dist/server --ssr src/entry-server.js",
+    "build:server": "vite build --outDir dist/server --ssr src/entry-server.jsx",
     "build": "yarn build:client && yarn build:server",
     "serve": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
     "express": "^4.17.1",
-    "vite": "^2.6.14"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "uuid": "^8.3.2",
+    "vite": "^2.9.9"
   }
 }
