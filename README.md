@@ -2,6 +2,8 @@
 
 Read more about islands architecture on [Jason's Blog about Islands Architecture](https://jasonformat.com/islands-architecture/)
 
+[My Tweet about Vite SSR and Islands](https://twitter.com/saurabhdawaree/status/1528804944609804289?s=20&t=ehTAQiQnvE93tBntDHIhBg)
+
 ## Install Dependencies
 
 ```sh
