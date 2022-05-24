@@ -1,6 +1,8 @@
-# Hello World Vite SSR
+# Vite SSR with React Islands Architecture
 
-Vanilla SSR setup using Vite
+Read more about islands architecture on [Jason's Blog about Islands Architecture](https://jasonformat.com/islands-architecture/)
+
+[My Tweet about Vite SSR and Islands](https://twitter.com/saurabhdawaree/status/1528804944609804289?s=20&t=ehTAQiQnvE93tBntDHIhBg)
 
 ## Install Dependencies
 
@@ -14,7 +16,7 @@ yarn
 node server.js # or yarn dev
 ```
 
-## Prod Build
+## Prod Build (This doesn't work right now with the islands setup)
 
 ```sh
 yarn build # builds server and client code
